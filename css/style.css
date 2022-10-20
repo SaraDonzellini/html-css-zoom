@@ -7,3 +7,69 @@
 body{
   font-family: Arial, Helvetica, sans-serif;
 }
+
+.flex{
+  display: flex;
+}
+
+.flex-wrap{
+  flex-wrap: wrap;
+}
+
+.flex-centered{
+  justify-content: center;
+  align-items: center;
+}
+
+.flex-between{
+  justify-content: space-between;
+  align-items: center;
+}
+
+.container
+
+.red{
+  color: red;
+}
+
+main{
+  background-color: black;
+}
+
+div.webcam{
+  background-image: url('https://picsum.photos/180/320.jpg');
+  height: 180px;
+  width: 320px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+section.webcams{
+  position: relative;
+  margin: 1vh auto;
+  
+}
+
+section.webcams span{
+  position: absolute;
+  background-color: rgba(138, 138, 138, 0.555);
+  color: white;
+  bottom:0%;
+  left:0%;
+}
+
+
+footer{
+  background-color: #222222;
+  height: 10vh;
+  padding: 4vh;
+}
+
+nav ul{
+  list-style-type: none;
+}
+
+nav ul li{
+  display: inline;
+}
