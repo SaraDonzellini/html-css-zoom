@@ -26,7 +26,10 @@ body{
   align-items: center;
 }
 
-.container
+.container{
+  width: 90vw;
+  margin: 0 auto;
+}
 
 .red{
   color: red;
@@ -34,12 +37,23 @@ body{
 
 main{
   background-color: black;
+  position: relative;
+}
+
+div.top-right{
+  color: white;
+  background-color: grey;
+  position:absolute;
+  top:0%;
+  right: 0%;
+  margin: 1vh;
+  z-index: 2;
 }
 
 div.webcam{
   background-image: url('https://picsum.photos/180/320.jpg');
-  height: 180px;
-  width: 320px;
+  height: 140px;
+  width: 280px;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -47,7 +61,7 @@ div.webcam{
 
 section.webcams{
   position: relative;
-  margin: 1vh auto;
+  margin: 3vh auto;
   
 }
 
@@ -60,16 +74,28 @@ section.webcams span{
 }
 
 
+
 footer{
   background-color: #222222;
+  color: white;
   height: 10vh;
   padding: 4vh;
 }
 
 nav ul{
   list-style-type: none;
+
 }
 
 nav ul li{
   display: inline;
+  padding-left: 2vh;
+}
+
+nav ul li>i{
+  display: block;
+}
+
+a{
+  background-color: darkgrey;
 }
