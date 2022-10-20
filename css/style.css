@@ -35,6 +35,10 @@ body{
   color: red;
 }
 
+.green{
+  color: limegreen;
+}
+
 main{
   background-color: black;
   position: relative;
@@ -51,7 +55,7 @@ div.top-right{
 }
 
 div.webcam{
-  background-image: url('https://picsum.photos/180/320.jpg');
+  background-image: url('https://picsum.photos/140/280.jpg');
   height: 140px;
   width: 280px;
   background-repeat: no-repeat;
@@ -78,24 +82,17 @@ section.webcams span{
 footer{
   background-color: #222222;
   color: white;
-  height: 10vh;
-  padding: 4vh;
+  height: 8rem;
+  padding: 1rem;
 }
 
-nav ul{
-  list-style-type: none;
 
+footer i{
+  font-size: xx-large;
+  padding: 0 0.5rem 0 1.5rem;
 }
 
-nav ul li{
-  display: inline;
-  padding-left: 2vh;
-}
-
-nav ul li>i{
-  display: block;
-}
-
-a{
-  background-color: darkgrey;
+div.esc{
+  padding: 1rem;
+  background-color: lightgrey;
 }
